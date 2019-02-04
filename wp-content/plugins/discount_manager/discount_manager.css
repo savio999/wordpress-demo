@@ -1,0 +1,34 @@
+.discbtn{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.role_div {
+    display: inline-block;
+    width: 30%;
+}
+
+.clearfix{
+    clear:both;
+}
+
+.discount_input, .select{
+    width:100%;
+}
+
+.select {
+    height: 25px;
+    margin-top: -3px;
+}
+
+.discount_input{
+    height:25px;
+}
+
+#continer_div{
+    width:45%;
+}
+
+
+
+

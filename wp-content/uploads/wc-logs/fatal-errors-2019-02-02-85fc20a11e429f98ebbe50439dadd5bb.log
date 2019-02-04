@@ -1,0 +1,26 @@
+2019-02-02T10:40:31+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Widget::construct() in C:\xampp\htdocs\wp_demo\wp-content\themes\demo_theme\functions.php:2743
+Stack trace:
+#0 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-widget-factory.php(100): Posts_Widget->__construct()
+#1 C:\xampp\htdocs\wp_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('Posts_Widget')
+#2 C:\xampp\htdocs\wp_demo\wp-content\themes\demo_theme\functions.php(2734): register_widget('Posts_Widget')
+#3 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(286): display_posts('')
+#4 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wp_demo\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wp_demo\wp-includes\widgets.php(1649): do_action('widgets_init')
+#7 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#8 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\wp_demo\wp-inc
+
+2019-02-02T10:40:32+00:00 CRITICAL Uncaught Error: Call to undefined method WP_Widget::construct() in C:\xampp\htdocs\wp_demo\wp-content\themes\demo_theme\functions.php:2743
+Stack trace:
+#0 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-widget-factory.php(100): Posts_Widget->__construct()
+#1 C:\xampp\htdocs\wp_demo\wp-includes\widgets.php(115): WP_Widget_Factory->register('Posts_Widget')
+#2 C:\xampp\htdocs\wp_demo\wp-content\themes\demo_theme\functions.php(2734): register_widget('Posts_Widget')
+#3 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(286): display_posts('')
+#4 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#5 C:\xampp\htdocs\wp_demo\wp-includes\plugin.php(453): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wp_demo\wp-includes\widgets.php(1649): do_action('widgets_init')
+#7 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(286): wp_widgets_init('')
+#8 C:\xampp\htdocs\wp_demo\wp-includes\class-wp-hook.php(310): WP_Hook->apply_filters(NULL, Array)
+#9 C:\xampp\htdocs\wp_demo\wp-inc
+
